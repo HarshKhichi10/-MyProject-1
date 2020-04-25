@@ -1,0 +1,329 @@
+.contact-block{
+        width: 100%;
+        height:580px;  
+        padding: 20px;
+        border: 5px solid black;
+        box-sizing: border-box;
+}
+.contact-block ul{
+
+    margin-top:7%;
+margin-left:-6%;
+text-align: justify;
+margin-bottom: 3%;
+
+}
+.contact-block li{
+
+text-align: justify;
+font-size: 17px;
+font-family: 'Open Sans Condensed', sans-serif;
+font-weight: 550;
+}
+.contact-block span{
+    font-weight: 900;
+
+}
+.contact-tablink{
+margin-top:1%;
+background-color : #5792CF;
+font-family: 'Times New Roman', Times, serif ;
+border-left: 6px solid skyblue;
+color:white;
+width:50%;
+margin-left:25%;
+align-content: center;
+}
+.contact-tablink1{
+    margin-top:4%;
+    background-color : #5792CF;
+    font-family: 'Times New Roman', Times, serif ;
+    border-left: 6px solid skyblue;
+    color:white;
+    width:75%;
+    margin-left:15%;   
+     align-content: center;
+    }
+.contact-card3{
+font-family:'Open Sans Condensed', sans-serif;
+font-weight: 550;
+font-size: 18px;
+ }
+/* Academic Header */
+.aca{
+padding: 25px;
+}
+.academic-header{
+color: gray;
+font-family:'Open Sans Condensed', sans-serif;
+margin-top: 5%;
+font-size: 45px;
+font-weight: 600;
+}
+.academic-para{
+margin-top: 5%;
+font-family: 'Times New Roman', Times, serif;
+font-size:17px;
+font-weight:500;
+text-align:justify;
+}
+.ul-content {
+font-size: 17px;
+padding: 3px;
+margin-bottom: 3em;
+text-align: justify;
+}
+.alldepartments{
+margin-top: -15%;
+}
+.indepartements{
+padding: 3px;
+margin-left: 12%;
+font-family: 'Open Sans Condensed', sans-serif;
+
+}
+.designations1{
+    margin-top: 2%;
+    background-color: #efefef;
+    height: 40px;
+    width:  80%;
+    text-transform: uppercase;
+    padding: 3px;
+    font-size:30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align:center ;
+    
+}
+.text-dep{
+margin-top: .0003%;
+margin-bottom: 2%;
+}
+
+.ul-content1{
+    font-size: 17px;
+    padding: 3px;
+    margin-bottom: em;
+    margin-left: 8em;  
+    text-align: justify;
+    }    
+   
+.designations{
+
+background-color: #efefef;
+height: 50px;
+width:  80%;
+text-transform: uppercase;
+padding: 3px;
+font-size:30px;
+font-family: 'Open Sans Condensed', sans-serif;
+justify-content: space-between;
+}    
+.designations:hover{
+background-color:#0077b3 ;
+color: white;
+
+}
+.designations1:hover {
+    background-color:#0077b3 ;
+    color: white;
+    
+    }
+.text-des {
+text-align: left;
+font-size:30px;
+margin-left: 3%;
+margin-top: 1%;
+}
+
+.text-des1 {
+    margin-top:-8%;    
+    margin-right: -80%;
+    font-size:30px;
+    text-align: right;
+    width:40px;
+    height: 30px;
+    
+    }
+.sign{
+text-align: right;
+margin-right: 3%;
+font-size:35px;
+margin-top:-6%; 
+}
+
+
+/* Alumini */
+
+.celltwo{
+
+}
+
+.aluminipara{
+    
+    margin-top:10%; 
+    text-align: justify;
+    width:500px;
+    margin-left:20%;
+    height: 400px;
+    font-size: 17px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+ 
+    }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .4s ease;
+    backface-visibility: hidden;
+    box-shadow: 3px 4px  gray;
+  }
+  
+  .middle {
+    transition: .4s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+
+    opacity: 1;
+    box-shadow: 5px 10px black;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+    .text:hover{
+ background-color: white;
+ border: 2px solid #0077b3;
+ color: black; 
+}
+
+.img-box{
+background-color: #efefef;
+width: 43.5%;
+height: 450px;
+margin-left: 25%; 
+padding: 40px;
+
+}
+.img-box1{
+  margin-left: 25%; 
+  background-color: #5792CF;
+  width: 50%;
+  margin-top: 14%;
+}
+.img-box2{
+margin-left: 33%;
+margin-top:-37%;
+margin-bottom: 16%;
+  
+}
+.card2-btn{
+  background-color: #5792CF;
+  color: black;
+  border: .5px solid #5792CF;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  box-shadow: 4px 4px 4px 5px grey;
+}
+
+.card2-btn:hover{
+  background-color: black;
+  color:#ffd633;
+border :1px solid#ffd633;
+
+
+}
+/* Syllabus*/
+
+
+.syllabus{
+
+  margin-top: 5%;
+  padding: 5px;
+}
+.sign1{
+margin-left: 90%;
+font-size: 27px;
+margin-top: -4.5%;
+}
+
+
+
+.sports-line{
+  font-size: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: left;
+  
+
+  }
+  
+  .sports-para{
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: left;
+    text-align: justify;
+    padding: 3px;
+    line-height: 2em;
+  
+    }  
+    .sports-para1{
+      font-size: 20px;
+      font-family: 'Open Sans Condensed', sans-serif;
+      text-align: left;
+      text-align: justify;
+      padding: 3px;
+      line-break: normal;
+      line-height: 2em;
+      
+      }
+.first-content{
+
+padding:50px;
+
+
+}
+.sports-img{
+padding: 2px;
+
+
+}
+.sports-img-wrapper{
+ margin-top: 6%;
+}
+.text-sports{
+margin-right: 4%;
+
+}
+.headings{
+margin-top: -3.5%; 
+font-size: 25px;
+border-bottom: 4px solid #5792CF;
+border-bottom-left-radius: 2em;
+
+
+}
+.headings1{
+      margin-top: -3.5%; 
+      font-size: 25px;
+    border-bottom: 4px solid #5792CF;
+    border-bottom-right-radius: 2em;
+    
+    
+   
+}
